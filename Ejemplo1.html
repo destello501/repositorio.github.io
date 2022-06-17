@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <LINK REL="StyleSheet" HREF="tuestilo.css">
+    <meta charset="utf-8" />
+    <title>Practica</title>
+</head>
+<body>
+    <h3>Resultado:</h3>
+    <p id="datos"> </p>
+
+    <script>
+        const persona = {
+            nombre: "Lucio",
+            Apellido: "Rasgado",
+            Edad: 25,
+            colorojos: "Negros"
+        };
+        document.getElementById("datos").innerHTML =
+            persona.nombre + " " + persona.Apellido + " tiene " + persona.Edad + " años de edad y tiene los ojos de color " + persona.colorojos;
+
+
+
+    </script>
+</body>
+</html>
